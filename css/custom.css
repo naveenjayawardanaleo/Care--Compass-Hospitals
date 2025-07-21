@@ -1,0 +1,8 @@
+.logo{
+    width: 250px;
+}
+
+.underline-image{
+    width: 200px;
+    filter: invert(28%) sepia(96%) saturate(2518%) hue-rotate(195deg) brightness(93%) contrast(92%);
+}

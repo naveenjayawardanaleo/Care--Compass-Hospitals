@@ -1,0 +1,313 @@
+:root {
+    --primary: #1E88E5;
+    --secondary: #4CAF50;
+
+}
+
+.color-primary {
+    color: var(--secondary);
+}
+
+.color-secondary {
+    color: var(--primary);
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+.primary {
+    background-color: var(--primary);
+}
+
+.secondary {
+    background-color: var(--secondary);
+}
+
+.topbar {
+    background-color: var(--primary);
+    padding: 12px 0px;
+    color: white;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.boxofsearch {
+    position: relative;
+    top: -60px;
+}
+
+.section {
+    padding: 60px 0px;
+}
+
+.appointment label {
+    color: rgb(235, 235, 235);
+}
+
+.btn-compass {
+    box-shadow: 3px 3px 4px 1px #0000004f;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 0px;
+}
+
+.underline {
+    width: 120px;
+    background-color: #4CAF50;
+    height: 7px;
+}
+
+
+
+.owl-dot {
+
+    background-color: #ccc;
+    /* Default dot color */
+    border-radius: 50%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.owl-dot {
+    background-color: #ccc !important;
+    border-radius: 0px;
+    width: 35px;
+    height: 10px;
+}
+
+.owl-dot.active {
+    background-color: var(--secondary) !important;
+    
+}
+
+.testimonials {
+    background-image: url(../img/tesi_img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.footer {
+    background-image: url(../img/dotted-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: color-burn;
+    color: white;
+}
+.area-of-menu ul{
+    padding-left: 0px;
+}
+footer ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.area-of-menu ul li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.breadcrumb-text {
+    bottom: 225px;
+    position: relative;
+}
+
+.breadcrumb-head {
+    background-image: url(../img/breadcrumb.jpg);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 15px 0px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-left {
+    text-align: left !important;
+
+}
+
+.services-bg {
+    background-image: url(../img/dotted-map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    box-shadow: 1px 1px 2px 1px #a8a8a8;
+}
+
+.main-menu .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 5px;
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--secondary);
+}
+
+.sec-title {}
+
+.sec-title .divider svg,
+.sec-title .divider svg {
+    fill: #1370b5;
+}
+
+.sec-title.text-center .divider {
+    margin: 30px auto 0;
+}
+
+.sec-title .divider {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 20px;
+    margin-top: 30px;
+}
+
+.footer {
+    background-image: url(../img/dotted-map.png);
+}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fafafa;
+    z-index: 9999;
+    background-image: url(../img/page-loader.gif);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.preloader:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #1370b5;
+    font-size: 1.2em;
+    opacity: .30;
+    font-weight: 700;
+    letter-spacing: 1px;
+    content: "Loading";
+    text-transform: uppercase;
+    transition: none;
+}
+
+.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+.sethescope {
+    background-image: url(../img/sethescope.webp);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 50px) bottom;
+    background-size: 200px;
+    animation: moveBackground 3s infinite ease-in-out;
+}
+
+@keyframes moveBackground {
+    0% { background-position: calc(100% - 50px) bottom; }  
+    50% { background-position: calc(100% - 60px) calc(100% - 10px); } 
+    100% { background-position: calc(100% - 50px) bottom; }  
+}
+.text-justified{
+    text-align: justify;
+}
+.make-appointment{
+    background-image: url(../img/make-appointment.png);
+}
+.appoinment-bg{
+    background-image: url(../img/medical_solution_1.jpg);
+}
+.doctors-page-pattern{
+    background-image: url(../img/doctors-page-pattern.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3b5998; /* Default Facebook blue */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter { background-color: #1da1f2; }
+.fa-instagram { background-color: #e1306c; }
+.fa-linkedin-in { background-color: #0077b5; }
+.fa-youtube { background-color: #ff0000; }
+.fa-whatsapp { background-color: #25d366; }
+
+
+.copyright-area{
+    background-color: #4caf50eb;
+}
+.owl-doctor-carousel .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+.blink {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f44336;
+    animation: blink-animation 1s infinite;
+}
+
+@keyframes blink-animation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.is-invalid {
+    border-color: red;
+}
+
+.invalid-feedback {
+    color: rgb(255, 255, 255);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+
